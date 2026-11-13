@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    .attribution {
+      font-size: 0.6875rem;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      background-color: #D5E1EF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    h2 {
+      font-size: 22px;
+      color: #1F314F;
+      line-height: 1.2;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 15px;
+      color: #68778D;
+      line-height: 1.4;
+      font-weight: 400;
+      text-align: center;
+      letter-spacing: .5px;
+    }
+
+    .card {
+      height: 499px;
+      width: 320px;
+      border-radius: 20px;
+      background-color: #FFFFFF;
+      box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+      padding: 16px 16px 40px 16px;
+    }
+
+    .card__image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+
+    }
+
+    .card__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      padding: 0px 16px 0px 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <img class="card__image" src="/images/image-qr-code.png" alt="QR code" />
+
+    <div class="card__content">
+      <h2>Improve your front-end skills by building projects</h2>
+      <h3> Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      </h3>
+
+    </div>
+  </div>
+  <!-- 
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </footer> -->
+</body>
+
+</html>
